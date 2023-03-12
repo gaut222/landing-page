@@ -1,0 +1,234 @@
+@media screen and (max-width: 3000px) {
+    #blocfond { 
+     	width:100%;
+    }
+
+#blocfond{
+    background-color: rgb(41, 0, 108);
+    width: 2300px;
+    height: 1200px;
+	margin:auto;
+	display  : flex;
+}
+#blocCentrale{
+    font-family: 'Righteous', cursive;
+    width: 1000px;
+    height: 1100px;
+    margin: auto;
+    background-color: rgb(6, 6, 180);
+    
+}
+#entete{
+    width: 991px;
+    height: 150px;
+    display: flex;
+    border: solid 4px;
+    
+}
+#logo{
+    background-color: olive;
+    width: 150px;
+    height: 150px;
+}
+#profil{
+    background-color: whitesmoke;
+    height:40px;
+    width: 130px;
+    margin: auto;
+    font-size: 25px;
+    border: solid;
+    border-color: rgb(112, 125, 20);
+    border-radius: 18px;
+    padding-top:10px;
+    
+    
+    
+}
+#actualite{
+    background-color: whitesmoke;
+    color: aqua;
+    height:40px;
+    width: 113px;
+    margin: auto;
+    font-size: 25px;
+    border: solid;
+    border-color: rgb(112, 125, 20);
+    border-radius: 18px;
+    padding-top:10px;
+    text-align: center;
+    text-decoration: none;
+}
+#connexion{
+    background-color: whitesmoke;
+
+    height:40px;
+    width: 180px;
+    margin: auto;
+    font-size: 25px;
+    border: solid;
+    border-color: rgb(112, 125, 20);
+    border-radius: 18px;
+    padding-top:10px;
+}
+#nouveaute{
+    margin-top: 70px;
+    background-color: rgb(172, 172, 65);
+    width: 220px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    text-align: center;
+    
+    
+    
+    
+}
+#banniere{
+    width: 1000px;
+    height: 333px;
+    background-color: black;
+    background-image:url("photoBanniere.png");
+}
+#decouvrir{
+    margin-top: 40px;
+    background-color: rgb(20, 97, 148);
+    width: 166px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    
+
+
+
+    
+}
+.slide-line{
+    text-decoration: none;
+    color: #712fb3;
+    position: relative;
+
+}
+
+.slide-line::before{
+    content :"";
+    position: absolute;
+    color :#712fb3;
+    width: 100%;
+    height: 3px;
+    bottom:0;
+    transform-origin: 100% 0;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+}
+.slide-line:hover::before{
+    transform-origin:0 0; 
+    transform: scaleX(1);
+
+}
+
+#social{
+    margin-top: 40px;
+    width: 1000px;
+    height: 220px;
+    display: flex;
+    color: whitesmoke;
+}
+#amis{
+    width: 260px;
+    height: 200px;
+    background-color: darkblue;
+    margin: auto;
+    background-image:url("photoAmis.png");
+    
+}
+    #textamis{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 5px;
+    }
+#marche{
+    width: 260px;
+    height: 200px;
+    background-color: rgb(139, 0, 93);
+    margin: auto;
+    background-image:url("photobuisness.png");
+}
+#textbuisness{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+#discussion{
+    width: 260px;
+    height: 200px;
+    background-color: rgb(79, 139, 0);
+    margin: auto;
+    background-image:url("photoDiscussion.png");
+}
+#textdiscussion{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+#enbas{
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    background-color: black;
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    
+}
+#cgu{
+    margin: auto;
+    background-color: rgb(5, 5, 2);
+    width: 50px;
+    height: 25px;
+    border: solid;
+    border-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+
+}
+#aide{
+    margin: auto;
+    background-color: rgb(5, 5, 2);
+    width: 50px;
+    height: 25px;
+    border: solid;
+    border-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+
+}
+#support{
+    margin: auto;
+    background-color: rgb(5, 5, 2);
+    width: 75px;
+    height: 25px;
+    border: solid;
+    border-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+
+}
+#confidentialite{
+    margin: auto;
+    background-color: rgb(5, 5, 2);
+    width: 135px;
+    height: 25px;
+    border: solid;
+    border-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+
+}
